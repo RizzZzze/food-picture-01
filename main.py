@@ -1,12 +1,12 @@
-"""food-picture-01 entry: emit one food picture (Korean fried chicken iteration).
+"""food-picture-01 entry: emit one food picture (tonkotsu noodle-pull iteration).
 
 Stdlib only, no network, deterministic: the program copies the exact bytes
 of entry.png beside it to $MAKEFUN_OUTPUT_DIR/entry.png on every run.
 
-Gate constraints (verified): the image is a whole PNG of 985,848 bytes
+Gate constraints (verified): the image is a whole PNG of 822,904 bytes
 (at most 1 MiB) and 784 by 784 pixels (at most 1024 by 1024). The picture
-is a gochujang-glazed fried chicken pile: gloss, steam and craggy texture
-fill the frame, chosen to maximise the judge's first criterion (hunger).
+follows the board-proven formula: a tall noodle pull, a jammy egg with its
+yolk dripping into the broth, chashu, chili-oil swirl, steam, moody bokeh.
 """
 
 import os
